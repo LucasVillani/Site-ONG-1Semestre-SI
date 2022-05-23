@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Fotos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <style>
+    body{
+    font-family:Tahoma, Geneva, sans-serif;
+    }
+@media screen and (min-width: 481px){
+        #imagem1{
+
+            position:absolute;
+            top:11%;
+            left:13%
+
+        }
+                #imagem2{
+                position:absolute;
+            top:11%;
+            left:38.8%;
+
+        }
+                #imagem3{
+                position:absolute;
+            top:11%;
+            right:11%
+
+        }
+                #imagem4{
+                position:absolute;
+            top:47.5%;
+            left:13%
+
+        }
+                #imagem5{
+                position:absolute;
+            top:47.5%;
+            left:38.8%
+
+        }
+                #imagem6{
+                position:absolute;
+            top:47.5%;
+            right:11%
+
+        }
+
+        .imagem img{
+
+            width:23%;
+
+            background:orange;
+            border-radius:5%;
+            padding:0.75%;
+
+
+        }
+               .rodape{
+    position:fixed;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0.8765625%;
+    margin:0;
+    background-color:black;
+    color:white;
+    font-family:arial;
+    }
+        .rodape p{
+    position:relative;
+    top:1.9765626%;
+    left:15%;
+    float:left;
+    background-color:black;
+}
+.rodape table{
+    position:relative;
+    right:20%;
+    float:right;
+}
+.rodape td a{
+    text-decoration:none;
+    color:white;
+}
+.rodape td a:hover{
+    text-decoration:underline;
+    color:#2E93EA;
+        }
+        }
+        @media screen and (max-width: 480px){
+            #titulo{
+             position:relative;
+        top:20%;
+        text-align:center;
+        color:orange;
+        font-size:1.75em;
+
+            }
+                #imagem1{
+
+            position:absolute;
+            top:55%;
+
+
+        }
+                #imagem2{
+                position:absolute;
+            top:100%;
+
+
+        }
+                #imagem3{
+                position:absolute;
+            top:145%;
+
+
+        }
+                #imagem4{
+                position:absolute;
+            top:190%;
+
+
+        }
+                #imagem5{
+                position:absolute;
+            top:235%;
+
+
+        }
+                #imagem6{
+                position:absolute;
+            top:280%;
+
+
+        }
+
+        .imagem img{
+            position:absolute;
+            left:1%;
+            width:92%;
+
+            background:orange;
+            border-radius:5%;
+            padding:3%;
+
+
+        }
+        .rodape{
+    padding:3% 0 3% 0;
+    width:100%;
+    float:left;
+    position:relative;
+    margin-top:2300px;
+    background-color:black;
+    color:white;
+    font-family:arial;
+}
+.rodape p{
+    padding:4% 0 0 4%;
+    font-size:0.5em;
+    left:5%;
+    float:left;
+    background-color:black;
+}
+.rodape table{
+    background:black;
+    font-size:0.8em;
+    position:relative;
+    right:7%;
+    float:right;
+}
+.rodape td a{
+    text-decoration:none;
+    color:white;
+}
+.rodape td a:hover{
+    text-decoration:underline;
+    color:#2E93EA;
+    }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <ul class="menu">
+            <img src="logo4.png" width="120px">
+            <li><a href="GaleriadeFotos.html">Galeria</a></li>
+            <li><a href="SobreaONG.html">Sobre a ONG</a></li>
+            <li><a href="Doações.html">Doações</a></li>
+            <li><a href="Cadastro.html">Cadastrar-se</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="Parcerias.html">Parcerias</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </header>
+    <header>
+        <h2 id="titulo">Galeria de Fotos</h2>
+    </header>
+
+		<nav class="imagem">
+			<img id="imagem1" src="./foto1.jpg" alt="ONG Boa Vizinhança" >
+			<img id="imagem2" src="./foto3.jpg" alt="ONG Boa Vizinhança" >
+            <img id="imagem3" src="./foto5.jpg" alt="ONG Boa Vizinhança" >
+
+			<img id="imagem4" src="./foto6.jpg" alt="ONG Boa Vizinhança">
+			<img id="imagem5"  src="./foto7.jpg" alt="ONG Boa Vizinhança">
+            <img id="imagem6" src="./foto8.jpg" alt="ONG Boa Vizinhança">
+        </nav>
+
+    <footer class="rodape">
+        <p>SITE CRIADO POR: IVO LUIS & LUCAS VILLANI</p>
+        <table>
+            <tr>
+                <th>REDES SOCIAIS</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.instagram.com/">Instagram</a> <br> <a href="https://www.facebook.com/">Facebook</a> <br> <a href="https://twitter.com"> Twitter</a> </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
