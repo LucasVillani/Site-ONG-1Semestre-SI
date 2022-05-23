@@ -2,219 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Parcerias</title>
-    <link rel="stylesheet" type="text/css" href="menu.css">
-    <style>
-    @media screen and (min-width: 481px){
-    body{
-    font-family:Tahoma, Geneva, sans-serif;
-    }
-        .formulario{
-        position:absolute;
-        top:55%;
-        left:12%;
-        width:25%;
-        background:orange;
-        padding:1%;
-        border-radius: 5%;
-        color:#1E3A81;
-
-        }
-        .formulario form{
-
-        padding:0;
-
-        }
-        .imagem{
-        position:absolute;
-        right:7%;
-        top:20%;
-        background-color:orange;
-            display:block;
-            padding:1.5%;
-            border-radius: 5%;
-        }
-        .titulo{
-        position:absolute;
-        top:16%;
-        left:21%;
-            color:orange;
-            font-size:1.3em;
-
-
-        }
-        .artigo{
-        font-size:1.3em;
-        text-align:justify;
-        position:absolute;
-        top:25%;
-        left:3%;
-        background:orange;
-        width:45%;
-        color:#1E3A81;
-        padding:1%;
-
-            border-radius: 5%;
-
-        }
-       .rodape{
-    position:fixed;
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    padding:0.8765625%;
-    margin:0;
-    background-color:black;
-    color:white;
-    font-family:arial;
-    }
-        .rodape p{
-    position:relative;
-    top:1.9765626%;
-    left:15%;
-    float:left;
-    background-color:black;
-}
-.rodape table{
-    position:relative;
-    right:20%;
-    float:right;
-}
-.rodape td a{
-    text-decoration:none;
-    color:white;
-}
-.rodape td a:hover{
-    text-decoration:underline;
-    color:#2E93EA;
-}
-}
-@media screen and (max-width: 480px){
-body{
-    font-family:Tahoma, Geneva, sans-serif;
-    }
-        .formulario{
-        position:absolute;
-        top:160%;
-        left:12%;
-        width:70%;
-        text-align:center;
-        background:orange;
-        padding:3%;
-        border-radius: 5%;
-        color:#1E3A81;
-
-        }
-        .formulario form{
-
-        padding:0;
-
-        }
-        .imagem{
-        width:90%;
-        height:35%;
-        position:absolute;
-        top:60%;
-        left:1.95%;
-        right:1%;
-
-
-        background-color:orange;
-            display:block;
-            padding:3%;
-            border-radius: 5%;
-        }
-        .titulo{
-        position:relative;
-        top:19.5%;
-        text-align:center;
-        color:orange;
-        font-size:1.25em;
-
-        }
-        .artigo{
-        width:92%;
-        font-size:1.2em;
-        text-align:justify;
-        position:absolute;
-        top:102%;
-        left:1%;
-        background:orange;
-
-
-        color:#1E3A81;
-        padding:3%;
-
-            border-radius: 5%;
-
-        }
-
-.rodape{
-    padding:3% 0 3% 0;
-    width:100%;
-    float:left;
-    position:relative;
-    margin-top:1400px;
-    background-color:black;
-    color:white;
-    font-family:arial;
-}
-.rodape p{
-    padding:4% 0 0 4%;
-    font-size:0.5em;
-    left:5%;
-    float:left;
-    background-color:black;
-}
-.rodape table{
-    background:black;
-    font-size:0.8em;
-    position:relative;
-    right:7%;
-    float:right;
-}
-.rodape td a{
-    text-decoration:none;
-    color:white;
-}
-.rodape td a:hover{
-    text-decoration:underline;
-    color:#2E93EA;
-    }
-
-
-
-    }
-    </style>
 </head>
 <body>
     <header>
-       <ul class="menu">
-            <img src="logo4.png" width="120px">
+       <ul>         
+            <li><a href="index.html">Home</a></li>
             <li><a href="GaleriadeFotos.html">Galeria</a></li>
             <li><a href="SobreaONG.html">Sobre a ONG</a></li>
-            <li><a href="Doações.html">Doações</a></li>
             <li><a href="Cadastro.html">Cadastrar-se</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="Parcerias.html">Parcerias</a></li>
-            <li><a href="index.html">Home</a></li>
         </ul>
     </header>
 
 
     <article>
-        <header class="titulo">
-            <h1>Parcerias</h1>
+        <header>
+            <h1> Parcerias</h1>
         </header>
-    <div>
-    <p class="artigo">Se você quiser ajudar a nossa ONG Boa Vizinhança por meio de um parceria, seja de empresa, instituição, grupo, etc; é só preencher o <b>FORMULÁRIO</b> no canto inferior da página. As parcerias são muito importantes, pois são ajudas muito grandes, já que mesmo com a doações que recebemos, sempre dependemos de mais para aumentar o alcance e a qualidade de nossas operações.</p>
-    </div>
-        <div>
-        <img class="imagem" src="./foto2.jpg" alt="ONG Boa Vizinhança">
-</div>
-        <div class="formulario">
+
+    <p>Se você quiser ajudar a nossa ONG Boa Vizinhança por meio de um parceria, seja de empresa, instituição, grupo, etc; é só preencher o <b>FORMULÁRIO</b> no canto inferior da página. As parcerias são muito importantes, pois são ajudas muito grandes, já que mesmo com a doações que recebemos, sempre dependemos de mais para aumentar o alcance e a qualidade de nossas operações.</p>
+
+        <img src="./foto2.jpg" alt="ONG Boa Vizinhança">
+
         <p><b>Formulário</b></p>
         <form>
             <p>Nome da Empresa/Instituição:<input type="text"></p>
@@ -224,11 +35,10 @@ body{
             <input type="reset">
 
         </form>
-        </div>
     </article>
 
 
-    <footer class="rodape">
+    <footer>
         <p>SITE CRIADO POR: IVO LUIS & LUCAS VILLANI</p>
         <table>
             <tr>
